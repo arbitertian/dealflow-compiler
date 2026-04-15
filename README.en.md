@@ -379,14 +379,7 @@ references/
 test/
 ```
 
-## Open-source release notes
 
-When publishing to GitHub:
-
-- use this package itself as the repo root
-- keep `artifacts/` so runtime commands and reporting work immediately
-- do not commit `.env`
-- do not commit `node_modules/`
 
 ## Verification commands
 
