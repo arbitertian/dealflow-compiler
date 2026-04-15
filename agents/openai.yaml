@@ -1,0 +1,4 @@
+interface:
+  display_name: "DealFlow Compiler"
+  short_description: "Compile chat terms into X Layer deal flows"
+  default_prompt: "Use $dealflow-compiler as a staged natural-language guide: first list the full flow, explain each stage, and wait for user confirmation before every on-chain step."

@@ -1,0 +1,26 @@
+{
+  "name": "dealflow-compiler",
+  "version": "1.0.0",
+  "description": "Standalone DealFlow Compiler skill for X Layer settlement flows",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "dealflow": "node scripts/dealflow.js",
+    "preflight": "node scripts/dealflow.js preflight",
+    "doctor": "node scripts/dealflow.js doctor",
+    "capabilities": "node scripts/dealflow.js capabilities",
+    "clean": "node scripts/run-hardhat.js clean",
+    "compile": "node scripts/run-hardhat.js compile",
+    "test": "node scripts/run-hardhat.js test",
+    "deploy:factory:xlayer": "node scripts/run-hardhat.js run scripts/deploy-dealvault-factory.js --network xlayer",
+    "deploy:xlayer": "node scripts/run-hardhat.js run scripts/deploy-dealvault.js --network xlayer",
+    "skill:install": "node scripts/install-skill.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.22.18"
+  }
+}
