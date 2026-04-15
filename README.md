@@ -399,16 +399,7 @@ test/
   DealVaultFactory.js
 ```
 
-## 开源发布建议
 
-上传 GitHub 时建议：
-
-- 把这个包本身作为 repo 根目录
-- 保留 `artifacts/`，这样别人拿到仓库就能直接跑 runtime 和 report
-- 不要提交 `.env`
-- 不要提交 `node_modules/`
-
-如果你想让别人 clone 后最少步骤就能跑，当前这个结构已经是比较稳的形态。
 
 ## 验证命令
 
